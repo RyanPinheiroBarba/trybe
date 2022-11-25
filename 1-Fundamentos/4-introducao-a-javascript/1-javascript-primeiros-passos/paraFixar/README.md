@@ -61,3 +61,11 @@ Se nossa variável “weekDay” for “segunda-feira”, “terça-feira”, �
 Se for algum dia de fim de semana, imprima “FINALMENTE, descanso merecido UwU”.
 
 Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
+
+** Para fixar 6
+Crie uma variável para armazenar o status da pessoa candidata no processo seletivo, que pode ser: 'aprovada', 'lista' ou 'reprovada';
+Crie uma estrutura condicional com o switch/case que irá imprimir as seguintes mensagens:
+Caso 'aprovada', imprima “Parabéns, você foi aprovada(o)!”.
+Caso 'lista', imprima “Você está na nossa lista de espera”.
+Caso 'reprovada', imprima “Você foi reprovada(o)”.
+Caso default, imprima a mensagem de “Informação incorreta”.
