@@ -15,7 +15,7 @@ const heigth = 8;
 const area = (base * heigth) /2;
 const perimeter = (base + heigth + heigth);
 
-console.log(base, heigth);
+console.log(`O valor da base é ${base}, e o da altura é ${heigth}`);
 
 console.log(`O resultado da area do triangulo de base ${base} e altura ${heigth} é igual a: ${area}`);
 
