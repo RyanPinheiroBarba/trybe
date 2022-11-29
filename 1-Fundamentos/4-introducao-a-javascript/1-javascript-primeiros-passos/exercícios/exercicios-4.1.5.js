@@ -10,4 +10,6 @@ switch (chessPiece.toLowerCase()){
     chessPieceMove = "3 casas fazendo um ângulo de 90º de descolamento."
     console.log(chessPieceMove);
     break
+  default:
+    console.log("Erro!")
 }
