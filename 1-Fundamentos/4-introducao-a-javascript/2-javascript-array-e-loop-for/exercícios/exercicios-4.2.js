@@ -37,3 +37,11 @@ for (value of numbers){
   arithmeticSum += value / numbers.length;
 }
 console.log(arithmeticSum.toFixed(2));
+
+//----------------- condicional para valores
+
+if (arithmeticSum > 20){
+  console.log("Valor maior que 20")
+} else {
+  console.log("Valor maior ou igual a 20")
+}
