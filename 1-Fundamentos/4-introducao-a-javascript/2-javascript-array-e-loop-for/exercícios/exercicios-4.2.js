@@ -65,4 +65,16 @@ for(value of numbers){
   }
 }
 
-console.log(Odd);
+//console.log(Odd);
+
+// ---------------- condicional para descobrir o menor valor de um array e imprimir
+
+let smaller = numbers[0];
+
+for (value of numbers){
+  if(value < smaller){
+  smaller = value;
+  }
+}
+console.log(smaller);
+
