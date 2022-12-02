@@ -67,7 +67,7 @@ for(value of numbers){
 
 //console.log(Odd);
 
-// ---------------- condicional para descobrir o menor valor de um array e imprimir
+//----------------- condicional para descobrir o menor valor de um array e imprimir
 
 let smaller = numbers[0];
 
@@ -76,5 +76,11 @@ for (value of numbers){
   smaller = value;
   }
 }
-console.log(smaller);
+//console.log(smaller);
+
+//----------------- laço de repetição pra criar um array de 1 a 25 e imprima o resultado
+
+for(cardinals = 1; cardinals < 26; cardinals += 1){
+  console.log(cardinals);
+}
 
