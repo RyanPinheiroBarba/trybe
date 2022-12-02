@@ -80,7 +80,11 @@ for (value of numbers){
 
 //----------------- laço de repetição pra criar um array de 1 a 25 e imprima o resultado
 
-for(cardinals = 1; cardinals < 26; cardinals += 1){
-  console.log(cardinals);
-}
+let cardinals = [];
 
+for(index = 1; index <= 25; index += 1){
+  cardinals.push(index);
+}
+console.log(cardinals);
+
+//----------------- utilizando o array cardinals, imprimir o resultado da divisão de casa um dos elementos por 2
