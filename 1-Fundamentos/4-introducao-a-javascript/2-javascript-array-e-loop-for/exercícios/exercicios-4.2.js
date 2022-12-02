@@ -3,7 +3,6 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //console.log(numbers);
 
 //-------------- usando for of
-
 let sum = 0;
 
 for (value of numbers){
@@ -12,7 +11,6 @@ for (value of numbers){
 //console.log(sum)
 
 //--------------- usando for in
-
 let sum2 = 0;
 
 for (value in numbers){
@@ -55,4 +53,16 @@ for (value of numbers){
   bigger = value;
   }
 }
-console.log(bigger);
+//console.log(bigger);
+
+//----------------- condicional para imprimir valores ímpares do array
+
+let Odd = [];
+
+for(value of numbers){
+  if(value % 2 != 0){
+    Odd.push(value);
+  }
+}
+
+console.log(Odd);
