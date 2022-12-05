@@ -88,3 +88,7 @@ for(index = 1; index <= 25; index += 1){
 console.log(cardinals);
 
 //----------------- utilizando o array cardinals, imprimir o resultado da divisão de casa um dos elementos por 2
+
+for(index = 0; index < cardinals.length; index += 2){
+  console.log(cardinals[index] / 2);
+};
