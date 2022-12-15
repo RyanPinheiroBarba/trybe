@@ -1,0 +1,19 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  background-color: aquamarine;
+  border-radius: 10%;
+  font-size: 15px;
+  padding: 10px;
+  width: 180px;
+}
