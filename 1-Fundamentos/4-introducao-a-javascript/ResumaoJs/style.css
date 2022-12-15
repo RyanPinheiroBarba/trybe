@@ -16,6 +16,7 @@ button {
   font-size: 15px;
   padding: 10px;
   width: 100px;
+  margin-top: 10px;
 }
 
 .court {
@@ -28,8 +29,10 @@ button {
 .team-field {
   width: 50%;
   height: 34vw;
-  background: rgb(250, 170, 46);
-  border: 5px solid rgb(73, 36, 128);
+  background-image: url(24529da18585034d59ef8911c46150d1.jpg);
+  background-size: 100%;
+  background-repeat: round;
+  border: 5px solid rgb(0, 0, 0);
   overflow: hidden;
   float: left;
 }
@@ -41,12 +44,12 @@ button {
 .trhee-points-area {
   border-width: 10px 10px 10px 0;
   border-style: solid;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
   border-bottom-right-radius: 50%;
   border-top-right-radius: 50%;
   height: 80%;
   width: 80%;
-  background: rgb(73, 36, 120);
+  background: rgba(155, 10, 10, 0.8);
   position: relative;
   right: 20%;
   top: 10%;
@@ -55,9 +58,9 @@ button {
 .free-trows {
   height: 7vw;
   width: 17vw;
-  border: 10px solid white;
+  border: 10px solid rgb(255, 255, 255);
   border-radius: 13px;
-  background: rgb(73, 36, 120);
+  background: rgb(255, 72, 0);
   position: absolute;
   top: 35%;
 }
@@ -69,7 +72,7 @@ button {
   border-radius: 50%;
   border-width: 13px;
   border-style: solid;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
   position: absolute;
   top: -10%;
   left: 80%;
@@ -83,10 +86,11 @@ button {
 
 .hit {
   margin: 10px auto;
-  background-color: rgb(134, 255, 134);
+  background-color: rgb(41, 206, 151);
   width: 100px;
   padding: 10px;
   border-radius: 10%;
+  float: left;
 }
 
 .mistake {
@@ -95,4 +99,5 @@ button {
   width: 100px;
   padding: 10px;
   border-radius: 10%;
+  float: right;
 }
