@@ -17,6 +17,7 @@ button {
   padding: 10px;
   width: 100px;
   margin-top: 10px;
+  cursor: crosshair;
 }
 
 .court {
@@ -91,6 +92,7 @@ button {
   padding: 10px;
   border-radius: 10%;
   float: left;
+  cursor: pointer;
 }
 
 .mistake {
@@ -100,4 +102,5 @@ button {
   padding: 10px;
   border-radius: 10%;
   float: right;
+  cursor: pointer;
 }

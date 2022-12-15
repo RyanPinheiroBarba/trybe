@@ -33,5 +33,7 @@ const addShotToCourt = (event) => {
 fullCourt.addEventListener("click", (event) =>{
   if(shot != undefined) {
     addShotToCourt(event)
+  } else {
+    alert("Selecione o Botão de marcação primeiro.")
   }
 })
