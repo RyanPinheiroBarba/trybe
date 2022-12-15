@@ -29,3 +29,9 @@ const addShotToCourt = (event) => {
   div.style.backgroundColor = selectedColor;
   allShots.appendChild(div);
 }
+
+fullCourt.addEventListener("click", (event) =>{
+  if(shot != undefined) {
+    addShotToCourt(event)
+  }
+})
