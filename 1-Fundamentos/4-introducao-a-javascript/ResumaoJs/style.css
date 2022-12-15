@@ -11,11 +11,11 @@ h1 {
 }
 
 button {
-  background-color: rgb(255, 155, 40);
+  background-color: rgb(64, 0, 107);
   border-radius: 10%;
   font-size: 15px;
   padding: 10px;
-  width: 180px;
+  width: 100px;
 }
 
 .court {
@@ -32,4 +32,67 @@ button {
   border: 5px solid rgb(73, 36, 128);
   overflow: hidden;
   float: left;
+}
+
+.rotate-position {
+  transform: rotate(180deg);
+}
+
+.trhee-points-area {
+  border-width: 10px 10px 10px 0;
+  border-style: solid;
+  border-color: white;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  height: 80%;
+  width: 80%;
+  background: rgb(73, 36, 120);
+  position: relative;
+  right: 20%;
+  top: 10%;
+}
+
+.free-trows {
+  height: 7vw;
+  width: 17vw;
+  border: 10px solid white;
+  border-radius: 13px;
+  background: rgb(73, 36, 120);
+  position: absolute;
+  top: 35%;
+}
+
+.free-trows-circle {
+  margin-right: -3.8vw;
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+  border-width: 13px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  top: -10%;
+  left: 80%;
+}
+
+.hits-mistakes {
+  text-align: center;
+  width: 20%;
+  margin: auto;
+}
+
+.hit {
+  margin: 10px auto;
+  background-color: rgb(134, 255, 134);
+  width: 100px;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.mistake {
+  margin: 10px auto;
+  background-color: rgb(255, 45, 45);
+  width: 100px;
+  padding: 10px;
+  border-radius: 10%;
 }
