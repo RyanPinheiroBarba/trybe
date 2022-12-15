@@ -17,3 +17,19 @@ button {
   padding: 10px;
   width: 180px;
 }
+
+.court {
+  margin: 20px auto;
+  width: 52vw;
+  height: 34vw;
+  text-align: center;
+}
+
+.team-field {
+  width: 50%;
+  height: 34vw;
+  background: rgb(250, 170, 46);
+  border: 5px solid rgb(73, 36, 128);
+  overflow: hidden;
+  float: left;
+}
