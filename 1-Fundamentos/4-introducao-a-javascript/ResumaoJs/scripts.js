@@ -41,9 +41,14 @@ fullCourt.addEventListener("click", (event) =>{
 })
 
 const saveShots = (x, y) => {
-  if(localStorage.length === 0) {
-    localStorage.setItem("1",`X:${x}, Y:${y} - ${shot}`);
-  } else {
-    localStorage.setItem(`${localStorage.length +1}`,`X:${x}, Y:${y} - ${shot}`);
-  }
+  localStorage.setItem(`${localStorage.length +1}`,`X:${x}, Y:${y} - ${shot}`)
+  localStorage.setItem("mapOfShots", allShots.innerHTML);
+}
+
+const reloadShots = () => {
+  allShots.innerHTML = localStorage.getItem("mapOfShots");
+}
+
+window.onload = () => {
+  reloadShots();
 }
