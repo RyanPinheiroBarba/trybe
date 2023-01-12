@@ -1,0 +1,11 @@
+li {
+  background-color: yellow;
+}
+
+.even {
+  background-color: green;
+}
+
+.odd {
+  text-transform: lowercase;
+}
