@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background-color: rgb(216, 216, 216);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+h1, p {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding: 1.2%;
+  background-color: lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  background-color: lightgray;
+  color: dimgray;
+  padding: 1.2%;
+}
+
+h1:hover, p:hover {
+  cursor: default;
+  color: rgb(60, 60, 60);
+}
+
+ol, ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+}
+
+li {
+  list-style: none;
+  padding: 0.5%;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+li:active {
+  color: rgb(5, 53, 42);
+  cursor: crosshair;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}

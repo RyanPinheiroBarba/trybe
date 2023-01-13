@@ -13,12 +13,21 @@ h1 {
   text-shadow: 5px 5px 5px rgb(48, 2, 2);
 }
 
+h1:hover {
+  background-color: rgb(0, 47, 134);
+  color: rgb(255, 255, 255);
+}
+
 .super-mario {
   width: 200px;
   position: absolute;
   z-index: 1;
   margin-top: -55px;
   margin-left: 250px;
+}
+
+.super-mario:hover {
+  transform: scale(1.06);
 }
 
 .goomba {
@@ -28,6 +37,10 @@ h1 {
   z-index: 2;
   margin-top: 230px;
   margin-left: 60px;
+}
+
+.goomba:hover {
+  transform: scale(1.03);
 }
 
 .baloon {
@@ -52,10 +65,18 @@ h1 {
   text-transform: uppercase;
 }
 
+.speach:hover {
+  transform: scale(1.1);
+}
+
 .bowser {
   width: 350px;
   position: absolute;
   z-index: 3;
   margin-top: 165px;
   margin-left: 845px;
+}
+
+.bowser:hover {
+  transform: scale(1.02);
 }
