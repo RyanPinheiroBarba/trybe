@@ -1,11 +1,66 @@
-li {
+ol {
   background-color: yellow;
 }
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.stack:hover {
+  font-weight: bold;
+  color: rgb(255, 102, 0);
+}
+
+.w3:hover {
+  font-weight: bold;
+  color: rgb(10, 90, 7);
+}
+
+.mdn:hover {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.devdocs:hover {
+  font-weight: bold;
+  color: rgb(255, 208, 0);
+}
+
+.trybe:hover {
+  font-weight: bold;
+  color: rgb(16, 224, 138);
+}
+
 .even {
-  background-color: green;
+  color: green;
 }
 
 .odd {
   text-transform: lowercase;
+}
+
+h1, h3 {
+  color: red;
+}
+
+.italic-title {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.python, .java, .js {
+  color: blue;
+}
+
+.java {
+  background-color: rgb(255, 0, 200);
 }
