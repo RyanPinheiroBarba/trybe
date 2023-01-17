@@ -14,3 +14,16 @@ for (let baseIndex = 0; baseIndex <= base; baseIndex += 1) {
   console.log(result);
   result = result + char;
 }
+
+for (let baseIndex = 0; baseIndex < base; baseIndex += 1) {
+  for (let heightIndex = 0; heightIndex < base; heightIndex += 1) {
+    if (heightIndex < inputResult) {
+      result = result + " ";
+    } else {
+      result = result + char;
+    }
+  }
+  console.log(inputLine);
+  inputLine = "";
+  inputPosition -= 1;
+}
