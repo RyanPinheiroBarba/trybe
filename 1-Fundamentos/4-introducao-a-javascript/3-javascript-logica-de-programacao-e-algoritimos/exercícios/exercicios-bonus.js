@@ -9,3 +9,8 @@ for (let baseIndex = 0; baseIndex < base; baseIndex += 1) {
 for (let heightIndex = 0; heightIndex < base; heightIndex += 1) {
   console.log(result);
 }
+
+for (let baseIndex = 0; baseIndex <= base; baseIndex += 1) {
+  console.log(result);
+  result = result + char;
+}
