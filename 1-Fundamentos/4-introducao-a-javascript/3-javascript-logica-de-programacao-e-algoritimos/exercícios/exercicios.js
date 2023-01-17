@@ -19,3 +19,21 @@ const splitAndPush = () => {
 };
 
 splitAndPush();
+
+let biggerNumber = 0;
+
+const primeNumber = () => {
+  for (let index = 2; index <= 50; index += 1) {
+    let primeNumber = true;
+    for (let index2 = 2; index2 < index; index2 += 1) {
+      if (index % index2 === 0) {
+        primeNumber = false;
+      }
+    }
+    if (primeNumber) {
+      biggerNumber = index;
+    }
+  }
+  console.log(biggerNumber);
+};
+primeNumber();
