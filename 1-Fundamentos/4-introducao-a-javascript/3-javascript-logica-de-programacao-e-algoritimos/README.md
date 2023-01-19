@@ -1,4 +1,4 @@
-#trybe
+#trybe !
 
 Aprofunde seus conhecimentos
 Leia atentamente os enunciados e faça o que se pede.
