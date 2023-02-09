@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Campos</title>
+</head>
+
+<body>
+  <header>
+    <h1>Validador de Campos</h1>
+  </header>
+  <section>
+    <form action="" method="post" id="form-data">
+      <label for="text-area">
+        <input type="text" id="text-area" placeholder="Digite Aqui">
+      </label>
+      <label for="selector">
+        <select name="selector" id="selector">
+          <option value="cpf">CPF</option>
+          <option value="hexColor">Cor Hexadecimal</option>
+          <option value="email">Email</option>
+          <option value="uuid">id</option>
+          <option value="url">link</option>
+        </select>
+      </label>
+      <label for="validate-btn">
+        <input type="button" value="Validar" id="validate-btn">
+      </label>
+      <p id="validate-return">...</p>
+    </form>
+  </section>
+  <script src="src/script.js" type="module"></script>
+</body>
+
+</html>

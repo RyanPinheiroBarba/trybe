@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/316867.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  background-color: rgba(255,255,255,0.1);
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+h2 {
+  color: #b1e0f2;
+  background-color: rgba(2, 43, 36, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h2:hover {
+  cursor: cell;
+}
+
+button {
+  background-color: #2d9a96;
+  border: 0 none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px
+}
+
+button:hover {
+  background-color: #77e6e2;
+  color: rgb(39, 72, 88);
+  cursor: context-menu;
+}

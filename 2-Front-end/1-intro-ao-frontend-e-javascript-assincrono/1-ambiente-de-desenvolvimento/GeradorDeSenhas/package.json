@@ -1,0 +1,25 @@
+{
+  "name": "Exercicios FrontEnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "prod": "vite --build",
+    "linter": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Ryan Pinheiro",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.1",
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "type": "module"
+}

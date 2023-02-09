@@ -1,0 +1,8 @@
+ESModule:
+
+Importar = import meuArquivo from 'caminho do arquivo';
+Exportar = export default 'nome da variavel';
+
+instalar o vite localmente = npm install vite
+executar e abrir o servidor no ambiente de dev = vite --open
+executar e construir para a produção = vite --build
