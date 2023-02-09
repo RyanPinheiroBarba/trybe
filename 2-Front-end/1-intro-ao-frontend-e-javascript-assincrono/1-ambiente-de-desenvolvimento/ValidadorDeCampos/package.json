@@ -1,0 +1,21 @@
+{
+  "name": "validadordecampos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "prod": "vite --build",
+    "linter": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.8.3",
+    "validator": "^13.9.0",
+    "vite": "^4.1.1"
+  },
+  "type": "module"
+}
