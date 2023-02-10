@@ -1,0 +1,40 @@
+
+#featured-post-comments p {
+  border-left: 5px solid var(--color-secondary);
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+
+#related-posts-section {
+  margin-top: 1em;
+  border-radius: var(--default-radius);
+  border: 1px solid var(--color-main);
+}
+
+#related-posts-section h2 {
+  font-size: 1em;
+  background-color: var(--color-main);
+  color: var(--color-title);
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+#related-posts-section p {
+  border-left: 5px solid var(--color-secondary);
+  margin: 0.5em 1em;
+  padding-left: 5px;
+}
+
+#error-message {
+  background-color: var(--color-error-secondary);
+  color: var(--color-error-main);
+  font-weight: bold;
+  padding: 1em;
+  border-radius: var(--default-radius);
+  border: 1px solid var(--color-error-main);
+  text-align: center;
+}
+
+.invisible {
+  display: none;
+}

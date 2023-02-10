@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <section id="app">
+    <h1>Microblogs</h1>
+    <section class="select-section">
+      <select name="users-select" id="users-select" required>
+        <option value="" disabled selected>Select a person</option>
+      </select>
+    </section>
+
+    <section id="posts-section" class="invisible">
+      <section id="featured-post">
+        <h2 id="featured-post-title"></h2>
+        <p id="featured-post-body"></p>
+
+        <section id="featured-post-comments"></section>
+      </section>
+
+      <section id="related-posts-section"></section>
+    </section>
+
+    <section class="error-section">
+      <p id="error-message" class="invisible"></p>
+    </section>
+  </section>
+  <script src="./src/index.js" type="module"></script>
+</body>
+
+</html>
