@@ -6,3 +6,48 @@ Exportar = export default 'nome da variavel';
 instalar o vite localmente = npm install vite
 executar e abrir o servidor no ambiente de dev = vite --open
 executar e construir para a produção = vite --build
+
+Funções Assíncronas:
+
+Instruções executadas FORA do fluxo principal da aplicação, ou seja,
+não trava as funções principais da aplicação.
+
+setTimeout = é uma função que torna um bloco de código assíncrono, ela recebe dois parâmetros: o primeiro é uma função que será executada no futuro e o segundo parâmetro é o tempo em milissegundos (1 segundo = 1000 milissegundos) em que essa função será executada.
+
+síntaxe:
+
+setTimeout(() => { Bloco a ser executado }, tempo);
+
+Promises = O objeto Promise representa a eventual conclusão (ou falha) de uma operação assíncrona e seu valor resultante.
+Uma Promise é um proxy para um valor não necessariamente conhecido quando a promise é criada. Ele permite que você associe manipuladores ao valor de sucesso ou motivo de falha de uma ação assíncrona. Isso permite que métodos assíncronos retornem valores como métodos síncronos: em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promise para fornecer o valor em algum momento no futuro.
+
+Uma promise pode ter três estados:
+
+pending (pendente): é o estado inicial dela, ou seja, ela ainda está aguardando o término da execução do código assíncrono;
+
+fulfilled (realizada): quando a operação assíncrona foi realizada com sucesso. Também é comum dizer que quando a promise está nesse estado ela está resolvida;
+
+rejected (rejeitada): quando a operação assíncrona termina com algum erro.
+
+síntaxe:
+
+new Promise((resolve, reject) => {});
+
+Esse construtor recebe uma função como parâmetro e essa função deverá ter dois argumentos: a função resolve e a função reject.
+
+métodos para Promise:
+
+then = O método .then() aceita até dois argumentos; o primeiro argumento é uma função de retorno de chamada para o caso cumprido da promise e o segundo argumento é uma função de retorno de chamada para o caso rejeitado. Cada .then() retorna um objeto de promise recém-gerado, que pode ser usado opcionalmente para encadeamento;
+
+catch = O método .catch() retorna um erro previamente construído na condição da Promise, capturando o error.message.
+
+Fetch = Método que retorna uma promise, que pode ser resolvida ou rejeitada de acordo com o resultado da requisição.
+
+síntaxe:
+
+fetch(URL, config)
+
+URL (obrigatório): é o endereço da API para qual faremos a requisição;
+Objeto de configurações (opcional): caso a requisição precise de alguma configuração adicional, é possível defini-la nesse objeto.
+
+
