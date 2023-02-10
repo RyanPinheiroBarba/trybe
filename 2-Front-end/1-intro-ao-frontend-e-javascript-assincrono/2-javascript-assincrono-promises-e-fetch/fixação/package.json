@@ -1,6 +1,9 @@
 {
-  "name": "js",
+  "name": "MicroBlogs",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "vite": "^4.1.1"
+  },
+  "type": "module"
 }

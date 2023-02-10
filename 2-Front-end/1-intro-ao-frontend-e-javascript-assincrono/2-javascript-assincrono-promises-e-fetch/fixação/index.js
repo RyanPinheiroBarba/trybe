@@ -11,7 +11,7 @@ import {
 const usersSelect = document.querySelector('#users-select');
 
 const USERS_API = 'https://dummyjson.com/users';
-// faça a lógica para pegar as informações das pessoas usuárias e preencher o select aqui.
+console.log(fetch('https://dummyjson.com/users'));
 
 usersSelect.addEventListener('change', () => {
   clearPageData();
