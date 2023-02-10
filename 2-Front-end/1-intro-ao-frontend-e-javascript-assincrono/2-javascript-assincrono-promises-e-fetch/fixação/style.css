@@ -1,0 +1,116 @@
+:root {
+  --color-body-background: #eeeeee;
+  --color-main: #333;
+  --color-secondary: #777777;
+  --color-input-font: #ffffff;
+  --color-title: #ffffff;
+  --color-error-main: #ff3030;
+  --color-error-secondary: #ff9999;
+
+  --default-radius: 5px;
+}
+
+body {
+  background-color: var(--color-body-background);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.select-section {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  border: none;
+  background-color: var(--color-main);
+  color: var(--color-input-font);
+  padding: 0.5em;
+  border-radius: var(--default-radius);
+  font-size: 1.3em;
+}
+
+select:invalid {
+  color: var(--color-input-font);
+}
+
+#featured-post {
+  margin-top: 2em;
+  border: 1px solid var(--color-main);
+  border-radius: var(--default-radius);
+}
+
+#featured-post-title {
+  background-color: var(--color-main);
+  color: var(--color-title);
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+#featured-post-body {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-family: monospace;
+}
+
+#featured-post h3 {
+  font-weight: bold;
+  border-bottom: 1px solid var(--color-secondary);
+  font-size: 1em;
+}
+
+#featured-post-comments {
+  margin: 1em;
+}
+
+#featured-post-comments p {
+  border-left: 5px solid var(--color-secondary);
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+
+#related-posts-section {
+  margin-top: 1em;
+  border-radius: var(--default-radius);
+  border: 1px solid var(--color-main);
+}
+
+#related-posts-section h2 {
+  font-size: 1em;
+  background-color: var(--color-main);
+  color: var(--color-title);
+  padding: 0.5em 1em;
+  margin: 0;
+}
+
+#related-posts-section p {
+  border-left: 5px solid var(--color-secondary);
+  margin: 0.5em 1em;
+  padding-left: 5px;
+}
+
+#error-message {
+  background-color: var(--color-error-secondary);
+  color: var(--color-error-main);
+  font-weight: bold;
+  padding: 1em;
+  border-radius: var(--default-radius);
+  border: 1px solid var(--color-error-main);
+  text-align: center;
+}
+
+.invisible {
+  display: none;
+}
