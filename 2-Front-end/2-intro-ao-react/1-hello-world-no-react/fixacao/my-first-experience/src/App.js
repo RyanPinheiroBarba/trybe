@@ -1,9 +1,8 @@
-import './App.css';
+import React from 'react';
+import HelloWorld from './teste';
 
-function App() {
-  return (
-    <main> Hello World! </main>
-  );
+const App = () => {
+  return <HelloWorld />;
 }
 
 export default App;
