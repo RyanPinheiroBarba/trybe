@@ -1,5 +1,7 @@
 body {
-  background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/09669e70779257.5bae7ffcd469f.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -10,11 +12,17 @@ header {
   color: rgb(228, 255, 193);
   font-size: 2.5rem;
   margin-top: 10rem;
-  text-shadow: 10px 5px 20px rgba(255, 255, 255, 0.4);
+}
+
+header > h1 {
+  margin: auto;
+  max-width: fit-content;
 }
 
 header > h1:hover {
   color: rgb(177, 248, 84);
+  text-shadow: 10px 5px 10px rgba(118, 1, 168, 0.8);
+  transform: scale(1.008);
 }
 
 .planetsContainer {
@@ -32,14 +40,27 @@ header > h1:hover {
   flex-flow: column nowrap;
 }
 
-.planet:hover {
+.cardContainer {
+  font-size: 1.5rem;
+}
+
+.cardContainer:hover {
   color: rgb(177, 248, 84);
+  text-shadow: 10px 5px 10px rgba(118, 1, 168, 0.8);
   transform: scale(1.02);
 }
 
 .planetNames {
   color: rgb(166, 211, 250);
-  font-size: 2rem;
+  font-size: 1.6rem;
+  margin: auto;
+  max-width: fit-content;
+}
+
+.planetNames:hover {
+  color: rgb(177, 248, 84);
+  text-shadow: 10px 5px 10px rgba(118, 1, 168, 0.8);
+  transform: scale(1.01);
 }
 
 .missionsContainer {
@@ -53,14 +74,19 @@ header > h1:hover {
   background-color: rgba(3, 92, 92, 0.5);
   border: solid 0.1rem rgb(20, 134, 134);
   border-radius: 10px;
+  font-size: 1.2rem;
   margin: 1rem;
   padding: 2rem;
   width: 20%;
 }
 
-.planets {
-  align-items: center;
-  display: flex;
+.planetCard:hover {
+  background-color: rgba(17, 144, 144, 0.5);
+  border: none;
+  box-shadow: 0.2rem 0.2rem 15px rgba(118, 1, 168, 0.8);
+  color: rgb(154, 255, 154);
+  text-shadow: 0.5rem 0.5rem 8px rgba(1, 39, 39, 0.8);
+  transform: scale(1.04);
 }
 
 .Mercúrio {
