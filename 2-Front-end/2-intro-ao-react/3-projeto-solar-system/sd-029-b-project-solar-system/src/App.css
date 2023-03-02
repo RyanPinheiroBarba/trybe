@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  color: rgb(228, 255, 193);
+  font-size: 2.5rem;
+  margin-top: 10rem;
+  text-shadow: 10px 5px 20px rgba(255, 255, 255, 0.4);
+}
+
+header > h1:hover {
+  color: rgb(177, 248, 84);
+}
+
+.planetsContainer {
+  color: aliceblue;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 1rem;
+}
+
+
+.planet:hover {
+  color: rgb(177, 248, 84);
+  transform: scale(1.02);
+}
+
+.planetNames {
+  color: rgb(166, 211, 250);
+  font-size: 2rem;
+}
+
+.missionsContainer {
+  color: aliceblue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.planetCard {
+  background-color: rgba(3, 92, 92, 0.5);
+  border: solid 0.1rem rgb(20, 134, 134);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 2rem;
+  width: 20%;
+}
