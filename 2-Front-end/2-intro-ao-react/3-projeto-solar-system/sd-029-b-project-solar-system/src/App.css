@@ -18,12 +18,19 @@ header > h1:hover {
 }
 
 .planetsContainer {
+  align-items: baseline;
   color: aliceblue;
   display: flex;
-  flex-flow: row nowrap;
   font-size: 1rem;
+  justify-content: space-between;
+  margin: 0 10rem;
 }
 
+.planetArea {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 .planet:hover {
   color: rgb(177, 248, 84);
@@ -49,4 +56,41 @@ header > h1:hover {
   margin: 1rem;
   padding: 2rem;
   width: 20%;
+}
+
+.planets {
+  align-items: center;
+  display: flex;
+}
+
+.Mercúrio {
+  width: 2rem;
+}
+
+.Vênus {
+  width: 5rem;
+}
+
+.Terra {
+  width: 6rem;
+}
+
+.Marte {
+  width: 3rem;
+}
+
+.Júpiter {
+  width: 20rem;
+}
+
+.Saturno {
+  width: 19rem;
+}
+
+.Urano {
+  width: 12rem;
+}
+
+.Netuno {
+  width: 10rem;
 }
