@@ -1,0 +1,6 @@
+ignore_files:
+  - __tests__
+  - .eslintrc.json
+  - .eslintignore
+  - jest.config.js
+  - .sequelizerc

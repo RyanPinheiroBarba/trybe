@@ -1,0 +1,48 @@
+{
+  "name": "blogs-api",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "engineStrict": true,
+  "private": true,
+  "dependencies": {
+    "express": "4.18.2",
+    "express-async-errors": "3.1.1",
+    "joi": "17.6.0",
+    "jsonwebtoken": "9.0.0",
+    "morgan": "1.10.0",
+    "mysql2": "2.1.0",
+    "sequelize": "6.30.0",
+    "shelljs": "0.8.5"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+    "start": "node .",
+    "start:test": "API_PORT=3030 NODE_ENV=test node .",
+    "kill:test": "if lsof -t -i:3030; then kill -9 $(lsof -t -i:3030); fi",
+    "drop": "npx sequelize-cli db:drop",
+    "seed": "npx sequelize-cli db:seed:all",
+    "pretest": "(npm run kill:test && NODE_ENV=test npm run start:test) &",
+    "test": "npx -y wait-on -t 300000 http://localhost:3030 && NODE_ENV=test API_PORT=3030 jest -i --verbose --forceExit",
+    "test:dev": "npx -y wait-on -t 300000 http://localhost:3001 && NODE_ENV=development API_PORT=3001 jest -i --verbose --forceExit",
+    "posttest": "npm run kill:test",
+    "test-coverage": "jest -i --verbose --forceExit --coverage",
+    "predev": "npx sequelize-cli db:create && npx sequelize-cli db:migrate",
+    "dev": "nodemon .",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "devDependencies": {
+    "change-case": "4.1.2",
+    "eslint-config-trybe-backend": "2.1.0",
+    "frisby": "2.1.2",
+    "jest": "26.0.1",
+    "jest-each": "28.0.1",
+    "nodemon": "2.0.22",
+    "sequelize-cli": "6.2.0",
+    "sequelize-jest-helpers-trybe": "1.0.0",
+    "supertest": "4.0.2",
+    "wait-on": "6.0.1"
+  }
+}
